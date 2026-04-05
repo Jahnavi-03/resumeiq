@@ -1,0 +1,128 @@
+# ResumeIQ — AI-Powered Resume Analyzer
+
+An intelligent dual-mode resume analysis application built with 
+LangChain, ChromaDB, and Groq (Llama 3.1) that serves both job 
+seekers and hiring managers.
+
+## What It Does
+
+**Recruiter Mode** — Upload multiple resumes against one job description to get:
+- Ranked candidate list by match score
+- Strengths and gaps per candidate
+- Side-by-side comparison table
+- Exportable results
+
+**Candidate Mode** — Upload your resume and a job description to get:
+- ATS compatibility score (0-100)
+- Missing skills and keywords
+- Bullet point rewrites in XYZ format
+- Personalized improvement suggestions
+
+## Architecture
+
+This application uses Retrieval-Augmented Generation (RAG) to ground 
+LLM responses in expert hiring knowledge rather than relying on 
+general training data.
+
+Knowledge Base (ATS rules, FAANG guides, bullet examples)
+↓
+LangChain Text Splitter + HuggingFace Embeddings
+↓
+ChromaDB Vector Store
+↓
+LangChain Retriever → Groq LLM (Llama 3.1)
+↓
+FastAPI Backend → Streamlit Frontend
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Framework | LangChain |
+| LLM | Groq — Llama 3.1 (free) |
+| Vector Database | ChromaDB |
+| Embeddings | HuggingFace sentence-transformers |
+| Backend | FastAPI |
+| Frontend | Streamlit |
+| Language | Python 3.14 |
+
+## Project Structure
+resumeiq/
+├── app/
+│   ├── main.py              # FastAPI endpoints
+│   ├── parser.py            # PDF text extraction
+│   ├── embedder.py          # HuggingFace embeddings
+│   ├── scorer.py            # Groq LLM scoring
+│   ├── candidate_mode.py    # Candidate analysis logic
+│   └── recruiter_mode.py    # Recruiter ranking logic
+├── knowledge_base/
+│   ├── ingestor.py          # RAG pipeline
+│   ├── ats_rules.txt        # ATS optimization rules
+│   ├── faang_guide.txt      # FAANG resume guidelines
+│   └── bullet_examples.txt  # Strong vs weak bullet examples
+├── frontend/
+│   └── streamlit_app.py     # Streamlit UI
+├── tests/
+│   └── test_*.py            # Unit tests
+├── .env.example             # Environment variables template
+└── requirements.txt         # Project dependencies
+
+## Getting Started
+
+### Prerequisites
+- Python 3.14
+- Groq API key (free at console.groq.com)
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/resumeiq.git
+cd resumeiq
+
+# Create virtual environment
+python3 -m venv .venv
+source .venv/bin/activate  # Mac/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up environment variables
+cp .env.example .env
+# Add your GROQ_API_KEY to .env
+```
+
+### Run the App
+```bash
+# Start FastAPI backend
+uvicorn app.main:app --reload
+
+# In a new terminal, start Streamlit frontend
+streamlit run frontend/streamlit_app.py
+```
+
+Open `http://localhost:8501` in your browser.
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/health` | Health check |
+| POST | `/analyze/candidate` | Analyze single resume |
+| POST | `/analyze/recruiter` | Rank multiple resumes |
+
+## Why RAG?
+
+Standard LLM resume feedback is generic. By building a RAG pipeline 
+over curated hiring knowledge (ATS rules, FAANG-specific guides, 
+bullet point examples), the feedback is grounded in expert knowledge 
+rather than general training data — producing significantly more 
+accurate and actionable results.
+
+## Future Improvements
+- Add support for DOCX resume format
+- Integrate LinkedIn job scraper for automatic JD ingestion
+- Add interview question generator based on resume gaps
+- Deploy to Azure (aligns with existing cloud infrastructure)
+
+## License
+MIT
