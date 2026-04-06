@@ -1,0 +1,188 @@
+ATS (APPLICANT TRACKING SYSTEM) OPTIMIZATION RULES
+====================================================
+Source: Industry best practices from Jobscan, Resume Worded, 
+and hiring experts
+
+SECTION 1: WHAT IS AN ATS
+An applicant tracking system (ATS) is software employers use 
+to process overwhelming numbers of job applications. It stores 
+resumes, tracks candidates through hiring process, and 
+automatically scans resumes for keywords and qualifications.
+Over 75% of recruiters filter candidates by skills using ATS.
+Resumes with matching job titles receive 10.6x more interviews
+than those without matching titles (Jobscan, 2.5M applications).
+
+SECTION 2: FILE FORMAT RULES
+- Save resume as .docx or text-based PDF (not scanned image)
+- Never submit scanned PDF — ATS cannot read images
+- File size should be under 5MB
+- File name format: FirstName_LastName_Resume.pdf
+- Never use PDF portfolio format
+- If application specifies format — follow it exactly
+
+SECTION 3: RESUME FORMAT TYPES
+Best formats for ATS:
+- Chronological: work history in reverse order, most recent first
+  Best for: candidates with strong relevant experience
+- Hybrid: skills section at top + chronological work history
+  Best for: career changers or highlighting specific skills
+
+Avoid:
+- Functional resume: focuses on skills without work history dates
+  ATS struggles to parse functional format — avoid completely
+
+SECTION 4: DOCUMENT LAYOUT RULES
+- Use single column layout only — never two or three columns
+- No tables, text boxes, or columns — ATS scrambles the content
+- No headers or footers — ATS often skips or misreads them
+- No images, logos, graphics, or photos of any kind
+- No special symbols, checkmarks, or custom bullet styles
+- Use standard bullet points: filled circle or dash only
+- Left-align all text — ATS struggles with centered or 
+  justified text
+- Set margins to 0.7 inches or more for readability
+- Keep total resume to 600 words or less
+- 1 page for under 3 years experience
+- 2 pages maximum for 3+ years experience
+
+SECTION 5: FONT AND FORMATTING RULES
+- Use ATS-friendly fonts only:
+  Sans-serif: Arial, Calibri, Verdana, Helvetica
+  Serif: Georgia, Times New Roman, Garamond
+- Body text: 11-12pt font size
+- Section headers: 14-16pt font size
+- Avoid decorative, script, or stylized fonts completely
+- Consistent formatting throughout entire document
+- Format dates consistently throughout:
+  Good: Jan 2021 - Mar 2023
+  Good: January 2021 - March 2023
+  Good: 01/2021 - 03/2023
+  Bad: mixing formats in same document
+
+SECTION 6: SECTION HEADERS RULES
+Use these exact standard section headers:
+- Work Experience (not "My Journey" or "Career History")
+- Education (not "Academic Background")
+- Skills (not "What I Know" or "Toolkit")
+- Projects (not "Things I Built")
+- Certifications (not "Credentials")
+ATS searches for these exact words — creative headers 
+cause sections to be missed entirely.
+
+SECTION 7: CONTACT INFORMATION RULES
+Place at very top of resume:
+- Full name in large font (16-20pt)
+- Professional email: firstname.lastname@gmail.com
+- Phone number with area code
+- City and State only — no full street address needed
+- LinkedIn URL — customize: linkedin.com/in/firstname-lastname
+- GitHub URL for technical roles
+Never put contact info in header or footer — ATS misses it
+Never include photo, age, gender, or marital status
+
+SECTION 8: RESUME HEADLINE RULES
+Place directly below contact information:
+- Short punchy line summarizing who you are
+- Include exact job title from job description
+- ATS searches job title as primary keyword
+- Can include years of experience and key certifications
+Example: "Senior Data Engineer | 5 Years Azure & Databricks"
+Jobscan data: resumes with matching job titles get 10.6x 
+more interviews
+
+SECTION 9: RESUME SUMMARY RULES
+Place below headline — 2-3 sentences maximum:
+- Brief elevator pitch of top qualifications
+- Highlight most impressive achievement with number
+- Include most relevant skills for target role
+- Never use personal pronouns: I, me, my, our
+- Focus on what you offer employer — not what you want
+- Include target job title naturally in summary text
+Bad: "I am looking for a data engineering role where I can 
+     use my Python skills"
+Good: "Data Engineer with 5 years building PySpark pipelines 
+      on Azure Databricks. Led migration of 15 databases 
+      serving 500K patients, reducing query time by 60%."
+
+SECTION 10: KEYWORD OPTIMIZATION RULES
+- Include exact keywords from job description verbatim
+- If JD says "Python" write "Python" not "py" or "python"
+- If JD says "machine learning" use that exact phrase
+- Include both spelled out and acronym versions:
+  "Artificial Intelligence (AI)"
+  "Application Programming Interface (API)"
+  "Applicant Tracking System (ATS)"
+- Keyword density: include important keywords 2-3 times
+- Use keywords naturally — never stuff unnaturally
+- Match job title in resume to job title in posting
+- Use vertical bars to separate skills if listing inline:
+  Python | SQL | PySpark | Azure | Databricks
+
+SECTION 11: SKILLS SECTION RULES
+- Create dedicated Skills section — ATS specifically scans it
+- Include 10-20 key skills total
+- Use exact wording from job description
+- Group by category:
+  Languages: Python, SQL, Java, Scala
+  Frameworks: PySpark, LangChain, FastAPI, Streamlit
+  Cloud: Azure, AWS, GCP
+  Tools: Databricks, Airflow, Azure Data Factory, Git
+  Databases: SQL Server, PostgreSQL, Delta Lake, MongoDB
+- List most relevant skills first
+- Only include skills you can confidently discuss in interview
+- Do not include skill level ratings (beginner/intermediate)
+
+SECTION 12: WORK EXPERIENCE RULES
+- Reverse chronological order — most recent job first
+- Include last 10-15 years only — older experience is less relevant
+- Typically 3-6 jobs total
+- For each role include:
+  Company name and city/state
+  Exact job title
+  Start and end dates (Jan 2022 - Mar 2024)
+  If current: (Jan 2022 - Present)
+- 3-6 bullet points per role
+- Start every bullet with strong action verb
+- Quantify every achievement with specific numbers
+- Focus on accomplishments not just responsibilities
+- Include specific technologies used in each role
+
+SECTION 13: STRONG ACTION VERBS
+Leadership: Directed, Led, Managed, Mentored, Coached, 
+            Supervised, Spearheaded, Championed
+Problem-Solving: Resolved, Improved, Optimized, Streamlined,
+                 Troubleshot, Reduced, Eliminated
+Communication: Presented, Negotiated, Collaborated, Advised,
+               Wrote, Documented
+Project Management: Executed, Implemented, Developed, 
+                    Organized, Delivered, Launched, Deployed
+Technical: Programmed, Engineered, Designed, Built, 
+           Automated, Architected, Migrated, Integrated
+
+Never start bullet with: Worked on, Helped with, Assisted,
+Responsible for, Duties included — these are passive and weak
+
+SECTION 14: EDUCATION RULES
+- Place after work experience section
+- Include: degree name, major, university, graduation year
+- Graduation date is optional for experienced candidates
+- GPA: include only if 3.5 or above and recent graduate
+- Relevant coursework: include only for recent graduates
+- Certifications: separate Certifications section
+
+SECTION 15: COMMON ATS REJECTION REASONS
+- Missing keywords from job description
+- Using tables or columns — content gets scrambled
+- Contact info in header — gets skipped by ATS
+- Inconsistent date formatting throughout document
+- Functional resume format — ATS cannot parse properly
+- Non-standard section headers — ATS misses entire sections
+- No quantified achievements in work experience
+- Resume too long — over 2 pages or 600+ words
+- Scanned PDF — ATS reads as blank document
+- Spelling and grammar errors
+- Job title not matching posting — hurts keyword matching
+- Skills section missing — ATS cannot find qualifications
+- Using personal pronouns (I, me, my) in summary
+- Employment gaps over 6 months without explanation
+- Saving as image format instead of .docx or PDF

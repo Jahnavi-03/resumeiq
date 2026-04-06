@@ -1,0 +1,393 @@
+FAANG AND TOP TECH COMPANY RESUME GUIDE
+========================================
+Covers: Data Engineer, Software Engineer, 
+        AI Engineer, ML Engineer roles
+
+SECTION 1: WHAT FAANG LOOKS FOR (ALL ROLES)
+FAANG companies (Meta, Apple, Amazon, Netflix, Google) and 
+Microsoft receive thousands of resumes per role. Recruiters 
+spend 30-60 seconds on initial screening. Your resume must 
+immediately communicate impact, scale, and technical depth.
+
+Core criteria FAANG recruiters screen for:
+- Measurable impact: numbers, percentages, scale
+- Technical depth: specific tools, technologies, systems
+- Scope: team size, user count, data volume, revenue impact
+- Progression: increasing responsibility over time
+- Problem solving: what problem did you solve and how
+- Ownership: did you lead or just contribute?
+- Communication: can a non-technical recruiter understand it?
+
+SECTION 2: THE XYZ BULLET FORMAT (ALL ROLES)
+Every bullet point must follow Google's XYZ format:
+"Accomplished X as measured by Y by doing Z"
+
+Formula:
+[Strong action verb] + [what you built/did] + 
+[measurable result] + [how you achieved it]
+
+Universal examples:
+- Built X that processes Y records using Z technology,
+  reducing latency from A to B
+- Designed and implemented X system serving Y users,
+  improving metric by Z%
+- Led team of X engineers to deliver Y feature,
+  resulting in Z business outcome
+
+SECTION 3: DATA ENGINEER SPECIFIC GUIDE
+============================================
+
+What FAANG looks for in Data Engineers:
+- Experience with large scale data processing (millions+ records)
+- Cloud data platform expertise (Azure, AWS, GCP)
+- Pipeline reliability and monitoring experience
+- Cost optimization mindset
+- Collaboration with data scientists and analysts
+
+Must have skills for Data Engineer:
+- Python (advanced — not just basic scripting)
+- SQL (complex queries, window functions, optimization)
+- Distributed computing: Spark, PySpark
+- Cloud: at least one of Azure, AWS, GCP (deep knowledge)
+- Data warehousing: Databricks, Snowflake, BigQuery, Redshift
+- Orchestration: Airflow, Azure Data Factory, Prefect
+- Version control: Git, GitHub
+- Data formats: Parquet, Delta Lake, Avro, JSON
+
+Strong differentiators for Data Engineer:
+- Streaming: Kafka, Spark Streaming, Azure Event Hubs
+- Infrastructure as code: Terraform, Databricks Asset Bundles
+- Data modeling: Star schema, Data Vault, dimensional modeling
+- Real-time processing experience
+- Cost optimization with measurable savings
+- Data quality frameworks and testing
+
+Data Engineer bullet examples:
+WEAK: Worked on data pipelines
+STRONG: Built 12 PySpark ingestion pipelines on Azure 
+Databricks processing 50M+ daily records, reducing data 
+latency from 4 hours to 15 minutes
+
+WEAK: Helped migrate databases
+STRONG: Led migration of 15 SQL Server databases to 
+Databricks Delta Lake serving 500K patients, cutting 
+query time by 60% and saving $50K annually
+
+WEAK: Used Azure services
+STRONG: Architected end-to-end data platform on Azure 
+using Data Factory for orchestration, Databricks for 
+transformation, and Delta Lake for storage, supporting 
+10 downstream analytics teams processing 1B+ monthly records
+
+Data Engineer quantification targets:
+- Data volume: "processing 50M+ daily records"
+- Time savings: "reducing runtime from 4 hours to 45 minutes"
+- Cost savings: "saving $50K annually in cloud costs"
+- Scale: "serving 500K patients across 12 hospitals"
+- Coverage: "migrating 79 tables with 1000+ columns"
+- Reliability: "achieving 99.9% pipeline uptime"
+- Team: "leading a team of 6 data engineers"
+
+SECTION 4: SOFTWARE ENGINEER SPECIFIC GUIDE
+============================================
+
+What FAANG looks for in Software Engineers:
+- Strong computer science fundamentals
+- System design experience at scale
+- Clean code and engineering best practices
+- Full stack or deep specialization
+- Impact on product metrics
+
+Must have skills for Software Engineer:
+- Programming: Python, Java, Go, C++, JavaScript
+- Data structures and algorithms (mandatory for interviews)
+- System design: distributed systems, microservices, APIs
+- Databases: SQL and NoSQL (PostgreSQL, MongoDB, Redis)
+- Cloud: AWS, Azure, or GCP
+- Version control: Git, GitHub
+- Testing: unit tests, integration tests, TDD
+- CI/CD: GitHub Actions, Jenkins, CircleCI
+
+Strong differentiators for Software Engineer:
+- High scale systems: millions of requests per second
+- Open source contributions with GitHub stars
+- Performance optimization with measurable results
+- Security and reliability engineering experience
+- Developer tooling and infrastructure experience
+
+Software Engineer bullet examples:
+WEAK: Built a website
+STRONG: Developed full-stack e-commerce platform using 
+React and FastAPI serving 500K daily active users, 
+achieving 99.99% uptime across 3 availability zones
+
+WEAK: Improved performance
+STRONG: Reduced API response time from 2.3s to 180ms by 
+implementing Redis caching layer and database query 
+optimization, improving user retention by 12%
+
+WEAK: Fixed bugs
+STRONG: Identified and resolved 47 critical production 
+bugs in payment processing service over 3 months, 
+reducing customer-reported issues by 73% and recovering 
+$200K in previously failed transactions
+
+WEAK: Worked on microservices
+STRONG: Designed and deployed 6 microservices on 
+Kubernetes handling 10K requests per second with 99.95% 
+availability, reducing deployment time from 2 hours to 
+8 minutes via CI/CD pipeline
+
+Software Engineer quantification targets:
+- Scale: "serving X daily active users"
+- Reliability: "achieving 99.9X% uptime"
+- Performance: "reducing latency from X to Y ms"
+- Throughput: "handling X requests per second"
+- Team: "leading team of X engineers"
+- Delivery: "shipping X features per quarter"
+- Cost: "reducing infrastructure costs by X%"
+
+SECTION 5: AI ENGINEER SPECIFIC GUIDE
+============================================
+
+What FAANG looks for in AI Engineers:
+- Production AI system experience (not just notebooks)
+- LLM application development and deployment
+- RAG pipeline implementation experience
+- AI system evaluation and monitoring
+- Bridge between research and production
+
+Must have skills for AI Engineer:
+- Python (advanced)
+- LLM frameworks: LangChain, LlamaIndex, Hugging Face
+- Vector databases: ChromaDB, Pinecone, Weaviate, FAISS
+- LLM APIs: OpenAI, Anthropic, Groq, Cohere
+- Prompt engineering and evaluation
+- FastAPI or similar for AI service deployment
+- Cloud: Azure OpenAI, AWS Bedrock, GCP Vertex AI
+- Docker and Kubernetes for deployment
+- Evaluation frameworks: RAGAS, TruLens
+
+Strong differentiators for AI Engineer:
+- Production RAG systems with measurable accuracy
+- Multi-agent system implementation
+- Fine-tuning experience with open source models
+- AI safety and alignment awareness
+- Cost optimization for LLM inference at scale
+- Building AI evaluation and monitoring pipelines
+
+AI Engineer bullet examples:
+WEAK: Built an AI chatbot
+STRONG: Built production RAG application using LangChain 
+and ChromaDB serving 10K daily queries, achieving 94% 
+answer accuracy measured by human evaluation, reducing 
+analyst research time from 3 hours to 15 minutes
+
+WEAK: Used LLMs in projects
+STRONG: Designed multi-agent AI system using LangGraph 
+that autonomously processes 500+ daily customer support 
+tickets, reducing human review time by 70% and achieving 
+91% customer satisfaction score
+
+WEAK: Worked with embeddings
+STRONG: Implemented semantic search pipeline using 
+HuggingFace sentence-transformers and FAISS over 10M 
+product descriptions, improving search relevance by 
+45% measured by click-through rate
+
+WEAK: Fine-tuned a model
+STRONG: Fine-tuned Llama 3.1 8B on 50K domain-specific 
+examples using LoRA, achieving 87% accuracy on internal 
+benchmark, outperforming GPT-4o-mini at 10x lower 
+inference cost
+
+AI Engineer quantification targets:
+- Accuracy: "achieving X% answer accuracy"
+- Scale: "serving X daily queries"
+- Time savings: "reducing research time from X to Y"
+- Cost: "reducing inference cost by X%"
+- Automation: "automating X% of manual reviews"
+- Latency: "achieving sub-X second response time"
+
+SECTION 6: ML ENGINEER SPECIFIC GUIDE
+============================================
+
+What FAANG looks for in ML Engineers:
+- End-to-end ML pipeline experience (not just modeling)
+- Production model deployment and monitoring
+- Feature engineering at scale
+- ML system design and architecture
+- Strong software engineering fundamentals
+
+Must have skills for ML Engineer:
+- Python (advanced)
+- ML frameworks: PyTorch, TensorFlow, scikit-learn
+- Feature stores: Feast, Tecton, Vertex Feature Store
+- Model serving: TorchServe, TensorFlow Serving, BentoML
+- Experiment tracking: MLflow, Weights & Biases
+- Data processing: Spark, PySpark, SQL
+- Cloud ML platforms: SageMaker, Vertex AI, Azure ML
+- Docker and Kubernetes
+- CI/CD for ML: GitHub Actions, Kubeflow Pipelines
+
+Strong differentiators for ML Engineer:
+- Real-time model serving at scale
+- A/B testing framework implementation
+- Feature engineering pipelines processing billions of records
+- Model monitoring and drift detection systems
+- Reducing model training time significantly
+- Cost optimization for training and inference
+
+ML Engineer bullet examples:
+WEAK: Built ML models
+STRONG: Trained and deployed fraud detection model on 
+500M+ daily transactions using XGBoost, achieving 99.2% 
+precision and reducing false positives by 35%, saving 
+$2M annually in manual review costs
+
+WEAK: Worked on recommendation system
+STRONG: Redesigned product recommendation system using 
+two-tower neural network architecture serving 50M users, 
+improving click-through rate by 18% and generating 
+$15M additional annual revenue
+
+WEAK: Used Python for machine learning
+STRONG: Built automated ML pipeline on Azure ML processing 
+1B+ daily records for real-time churn prediction, reducing 
+pipeline runtime from 6 hours to 45 minutes using 
+distributed PySpark feature engineering
+
+WEAK: Deployed models to production
+STRONG: Implemented model serving infrastructure on 
+Kubernetes handling 50K predictions per second with 
+P99 latency under 50ms, supporting 12 production ML 
+models across 3 product lines
+
+ML Engineer quantification targets:
+- Model performance: "achieving X% accuracy/precision/recall"
+- Scale: "serving X predictions per second"
+- Business impact: "generating $X additional revenue"
+- Efficiency: "reducing training time from X to Y hours"
+- Cost: "reducing inference cost by X%"
+- Automation: "automating X% of feature engineering"
+
+SECTION 7: PROJECTS SECTION (ALL ROLES)
+Projects are critical for FAANG applications especially for:
+- Career changers
+- Recent graduates
+- Anyone without FAANG-level company experience
+
+Strong project requirements:
+- Must be deployed or have live demo link
+- Must have GitHub repo with clean professional README
+- Must solve a real problem with clear impact
+- Must use technologies relevant to target role
+- Must show measurable outcome or performance metric
+- Architecture diagram in README is a strong differentiator
+
+Project bullet format:
+[Project name] | [Tech stack] | [GitHub link]
+- Built X that does Y for Z users/use case
+- Key technical challenge: what was hard and how you solved it
+- Result: metric showing it works
+
+Role-specific project ideas:
+Data Engineer: 
+  End-to-end pipeline with Spark, Airflow, and Delta Lake
+  Real-time streaming pipeline with Kafka
+  
+Software Engineer:
+  Full-stack web app with 1000+ GitHub stars
+  Open source contribution to major project
+  
+AI Engineer:
+  Production RAG application with evaluation metrics
+  Multi-agent system solving real business problem
+  
+ML Engineer:
+  End-to-end ML system with monitoring and retraining
+  Model serving API handling high throughput
+
+SECTION 8: RESUME SUMMARY BY ROLE
+Write a 2-3 line summary specific to your target role.
+Never use personal pronouns (I, me, my).
+
+Data Engineer summary template:
+"Data Engineer with X years building large-scale pipelines 
+on [Cloud]. Led [biggest achievement with number]. 
+Expertise in [top 3 skills from target JD]."
+
+Software Engineer summary template:
+"Software Engineer with X years building [type of systems] 
+at scale. Shipped [biggest achievement]. 
+Proficient in [top 3 skills from target JD]."
+
+AI Engineer summary template:
+"AI Engineer specializing in LLM applications and RAG 
+systems. Built [biggest AI project] achieving [metric]. 
+Experienced in [LangChain/relevant framework] and 
+production AI deployment."
+
+ML Engineer summary template:
+"ML Engineer with X years taking models from research 
+to production. Deployed [biggest model] processing 
+[scale]. Expert in [PyTorch/TensorFlow] and 
+end-to-end ML pipelines."
+
+SECTION 9: FAANG INTERVIEW ALIGNMENT
+Your resume must set up your interview stories.
+Every bullet should expand into a STAR story:
+Situation - Task - Action - Result
+
+Questions to ask yourself for every bullet:
+"Can I talk about this for 5 minutes in an interview?"
+"Do I know the exact numbers I am claiming?"
+"Can I explain every technology I listed?"
+"Can I whiteboard the system I built?"
+"What was the hardest part and how did I solve it?"
+
+Never put anything on your resume you cannot deeply discuss.
+Every technology listed = potential 30-minute deep dive.
+
+SECTION 10: RED FLAGS FAANG RECRUITERS LOOK FOR
+- Job hopping: less than 1 year at multiple companies
+- Employment gaps without explanation
+- Vague bullets with no measurable impact
+- Skills listed that never appear in experience bullets
+- Generic descriptions applying to anyone
+- Claiming individual ownership of team work
+- Technologies listed without evidence of actual use
+- Inconsistent or unexplained timeline gaps
+- GPA below 3.0 from top school listed prominently
+- Objective statement instead of summary
+- Same bullets copied across multiple roles
+- No progression in responsibility over time
+
+SECTION 11: LINKEDIN ALIGNMENT
+FAANG recruiters always cross-reference resume with LinkedIn:
+- Job titles must match exactly
+- Employment dates must match exactly
+- Company names must match exactly
+- Discrepancies raise immediate red flags
+- LinkedIn headline should match target role title
+- LinkedIn summary should complement resume summary
+- GitHub profile should be active and public
+- Pinned repos should match resume projects
+
+SECTION 12: STRONG ACTION VERBS BY ROLE
+
+Data Engineer: Built, Migrated, Ingested, Orchestrated,
+               Optimized, Architected, Processed, Scaled
+
+Software Engineer: Developed, Shipped, Deployed, Designed,
+                   Refactored, Integrated, Launched, Reduced
+
+AI Engineer: Implemented, Fine-tuned, Evaluated, Deployed,
+             Optimized, Integrated, Benchmarked, Built
+
+ML Engineer: Trained, Deployed, Designed, Improved,
+             Automated, Reduced, Scaled, Monitored
+
+Universal weak verbs to avoid:
+Worked on, Helped with, Assisted, Was responsible for,
+Participated in, Contributed to, Involved in

@@ -1,0 +1,129 @@
+RESUME BULLET POINT EXAMPLES — STRONG VS WEAK
+==============================================
+
+PURPOSE: These examples teach the difference between weak vague 
+bullets and strong quantified bullets following XYZ format.
+Use these as templates when rewriting candidate bullets.
+
+SECTION 1: DATA ENGINEERING BULLETS
+
+WEAK: Worked on data pipelines
+STRONG: Built 12 PySpark data ingestion pipelines on Azure 
+Databricks processing 50M+ daily records, reducing data 
+latency from 4 hours to 15 minutes
+
+WEAK: Helped migrate databases
+STRONG: Led migration of 15 SQL Server databases to Databricks 
+Delta Lake serving 500K patients, cutting query time by 60% 
+and saving $50K annually in licensing costs
+
+WEAK: Improved pipeline performance
+STRONG: Optimized 8 critical Spark jobs using partition pruning 
+and broadcast joins, reducing average runtime from 4 hours 
+to 45 minutes and cutting compute costs by 35%
+
+WEAK: Worked with APIs
+STRONG: Developed Workday SOAP API extraction pipeline using 
+PySpark and Zeep library, ingesting 18+ worker entities for 
+50K+ employees with 99.9% uptime
+
+WEAK: Did data validation
+STRONG: Built automated data validation framework comparing 
+Fivetran tables against SOAP API outputs across 413 files, 
+identifying and resolving 23 critical data discrepancies
+
+WEAK: Used Azure services
+STRONG: Architected end-to-end data platform on Azure using 
+Data Factory for orchestration, Databricks for transformation, 
+and Delta Lake for storage, supporting 10 downstream analytics 
+teams
+
+WEAK: Worked on SQL queries
+STRONG: Wrote complex SQL transformations using window functions 
+and CTEs to deduplicate 500M+ Medicare claims records, improving 
+data accuracy by 99.7%
+
+WEAK: Helped team with projects
+STRONG: Mentored 2 junior data engineers on SQL Server to 
+Databricks migration, conducting weekly code reviews and 
+reducing their PR review cycles from 5 days to 1 day
+
+SECTION 2: SOFTWARE ENGINEERING BULLETS
+
+WEAK: Built a website
+STRONG: Developed full-stack RAG application using FastAPI 
+and React serving 1K+ daily users, reducing document search 
+time by 80% compared to manual search
+
+WEAK: Worked on microservices
+STRONG: Designed and deployed 6 microservices on Kubernetes 
+handling 10K+ requests per second with 99.95% availability 
+across 3 availability zones
+
+WEAK: Improved system performance
+STRONG: Reduced API response time from 2.3 seconds to 180ms 
+by implementing Redis caching layer, directly improving 
+user retention by 12%
+
+WEAK: Fixed bugs
+STRONG: Identified and resolved 47 critical production bugs 
+in payment processing service over 3 months, reducing 
+customer-reported issues by 73%
+
+SECTION 3: MACHINE LEARNING BULLETS
+
+WEAK: Built ML models
+STRONG: Trained and deployed NLP classification model on 
+500K support tickets achieving 94% accuracy, automating 
+ticket routing and saving 2,000 engineer hours annually
+
+WEAK: Worked on AI projects
+STRONG: Built RAG pipeline using LangChain and ChromaDB 
+over 10K internal documents, reducing analyst research 
+time from 3 hours to 15 minutes per query
+
+WEAK: Used Python for data science
+STRONG: Developed automated anomaly detection system using 
+Isolation Forest on 1B+ time series data points, catching 
+95% of infrastructure failures 30 minutes before impact
+
+SECTION 4: REWRITING RULES
+
+When rewriting a weak bullet always:
+1. Start with a strong action verb (Built, Designed, Led, 
+   Optimized, Architected, Developed)
+2. Add what specifically was built or done
+3. Add the technology stack used
+4. Add the scale (how much data, how many users, how large)
+5. Add the measurable result (time saved, cost reduced, 
+   accuracy improved, reliability achieved)
+6. Keep to 2 lines maximum — recruiters skip long bullets
+
+SECTION 5: ACTION VERB LIST BY CATEGORY
+
+BUILDING: Built, Developed, Created, Designed, Architected,
+          Implemented, Engineered, Constructed, Established
+
+IMPROVING: Optimized, Reduced, Improved, Accelerated, 
+           Streamlined, Enhanced, Upgraded, Modernized
+
+LEADING: Led, Managed, Directed, Coordinated, Mentored,
+         Guided, Supervised, Spearheaded, Championed
+
+DELIVERING: Shipped, Launched, Deployed, Released, Delivered,
+            Executed, Completed, Finalized
+
+ANALYZING: Analyzed, Investigated, Identified, Evaluated,
+           Assessed, Researched, Diagnosed, Discovered
+
+SECTION 6: NUMBERS CHEAT SHEET
+When you cannot remember exact numbers use these approaches:
+
+Team size: "team of X engineers"
+Data volume: "Xmillion/billion records"
+Time improvement: "reducing from X to Y hours/minutes"
+Cost savings: "saving approximately $X annually"
+User scale: "serving X users/patients/customers"
+Coverage: "across X systems/databases/tables"
+Reliability: "achieving X% uptime/accuracy"
+Speed: "X requests per second"
