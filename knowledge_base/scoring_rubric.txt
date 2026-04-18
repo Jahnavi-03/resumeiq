@@ -1,0 +1,95 @@
+ATS RESUME SCORING GUIDE
+=========================
+Based on industry research from Jobscan, Rezi, 
+Enhancv, and resume.io
+
+SECTION 1: WHAT ATS SCORE MEANS
+There is no single official ATS scoring standard.
+Different ATS systems score differently.
+A score of 75 or above significantly improves 
+interview chances according to Jobscan research.
+A score of 80 or above is considered excellent
+according to Enhancv and resume.io research.
+99% of Fortune 500 companies use ATS systems.
+Over 75% of large employers use ATS to filter 
+candidates before human review.
+
+SECTION 2: WHAT TO EVALUATE FOR SCORING
+When scoring a resume against a job description
+consider these factors in order of importance:
+
+1. KEYWORD AND SKILLS MATCH (most important)
+   - Are required skills from JD present in resume?
+   - Are exact keywords from JD used in resume?
+   - Are both full form and acronym included?
+     Example: "Azure Data Factory (ADF)"
+   - Are keywords in important sections?
+     Summary and Work Experience carry most weight
+   - Frequency matters: keyword used multiple times
+     in relevant sections boosts match
+
+2. EXPERIENCE RELEVANCE
+   - Does experience level match JD requirement?
+   - Are past roles relevant to target role?
+   - Is there clear career progression?
+   - Are there unexplained employment gaps?
+
+3. BULLET POINT QUALITY
+   - Do bullets start with strong action verbs?
+   - Are achievements quantified with numbers?
+   - Do bullets follow XYZ format?
+   - Are bullets concise (under 2 lines)?
+
+4. RESUME FORMAT AND PARSABILITY
+   - Single column layout?
+   - Standard section headers?
+   - No tables, graphics, or columns?
+   - Consistent date formatting?
+   - Contact info in body not header/footer?
+
+5. PROFESSIONAL SUMMARY
+   - Is there a summary?
+   - Does it mention target role?
+   - Does it include a quantified achievement?
+   - No personal pronouns?
+
+SECTION 3: SCORING GUIDANCE
+Use your expertise as a senior FAANG recruiter
+to assign a score from 0-100 based on overall
+evaluation of the above factors.
+
+Score interpretation:
+90-100: Excellent — highly optimized, very likely 
+        to pass ATS and impress human reviewer
+75-89:  Good — solid match, likely to pass ATS
+        with minor improvements needed
+60-74:  Moderate — passes some ATS filters but
+        missing important keywords or skills
+40-59:  Weak — likely filtered by ATS, significant
+        improvements needed
+0-39:   Poor — major mismatch, fundamental 
+        rewrite required
+
+SECTION 4: WHAT TO ALWAYS INCLUDE IN FEEDBACK
+1. ATS score (0-100) with one sentence explanation
+2. Top 3 specific reasons for the score
+3. Every required skill missing from resume
+4. Every preferred skill missing from resume
+5. Which exact JD keywords are missing
+6. Top 3 bullet points that need improvement
+7. Rewritten versions of those bullets in XYZ format
+8. Top 3 specific actionable suggestions
+9. Estimated score after suggested improvements
+
+SECTION 5: IMPORTANT SCORING RULES
+- Never give a perfect 100 — there is always room
+  for improvement
+- Never give below 10 — even a poor resume has
+  some redeeming qualities
+- Be honest but constructive — the goal is to help
+  the candidate improve
+- Base score on JD requirements not general standards
+- A resume for wrong role should score low even if
+  well written
+- Quantify your reasoning — explain why you gave 
+  that specific score

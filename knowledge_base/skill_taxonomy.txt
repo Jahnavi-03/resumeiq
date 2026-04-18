@@ -1,0 +1,292 @@
+TECH SKILL TAXONOMY BY ROLE
+==============================
+This taxonomy defines required and preferred skills
+for each role. Use this to identify skill gaps when
+comparing resume against job description.
+
+SECTION 1: DATA ENGINEER SKILLS
+==============================
+
+TIER 1 — CORE REQUIRED (missing any = major gap):
+Programming:
+  - Python (advanced: not just scripting)
+  - SQL (complex queries, window functions, CTEs,
+    query optimization)
+
+Distributed Computing:
+  - Apache Spark
+  - PySpark
+
+Version Control:
+  - Git
+  - GitHub or GitLab
+
+TIER 2 — PLATFORM REQUIRED (need at least one):
+Cloud Platforms (pick one):
+  - Azure (Azure Data Factory, Azure Databricks,
+    Azure Data Lake, Azure Synapse)
+  - AWS (S3, Glue, EMR, Redshift, Lambda)
+  - GCP (BigQuery, Dataflow, Pub/Sub, Composer)
+
+Data Warehouses (pick one):
+  - Databricks
+  - Snowflake
+  - BigQuery
+  - Amazon Redshift
+  - Azure Synapse Analytics
+
+Orchestration (pick one):
+  - Apache Airflow
+  - Azure Data Factory
+  - Prefect
+  - Dagster
+  - AWS Step Functions
+
+TIER 3 — STRONG DIFFERENTIATORS:
+Streaming:
+  - Apache Kafka
+  - Spark Streaming
+  - Azure Event Hubs
+  - AWS Kinesis
+  - Google Pub/Sub
+
+Storage Formats:
+  - Delta Lake
+  - Apache Iceberg
+  - Apache Parquet
+  - Apache Avro
+
+Infrastructure as Code:
+  - Terraform
+  - Databricks Asset Bundles
+  - AWS CDK
+  - Azure Bicep
+
+Data Quality:
+  - Great Expectations
+  - dbt (data build tool)
+  - Monte Carlo
+
+TIER 4 — NICE TO HAVE:
+  - Docker and Kubernetes
+  - MLflow (ML pipeline experience)
+  - Apache Flink
+  - Scala
+  - Java
+
+SECTION 2: SOFTWARE ENGINEER SKILLS
+==============================
+
+TIER 1 — CORE REQUIRED:
+Programming (pick one or more):
+  - Python
+  - Java
+  - Go (Golang)
+  - C++
+  - JavaScript/TypeScript
+
+Computer Science Fundamentals:
+  - Data structures
+  - Algorithms
+  - Time and space complexity
+  - System design
+
+Version Control:
+  - Git
+  - GitHub
+
+TIER 2 — PLATFORM REQUIRED:
+Databases (need both SQL and NoSQL):
+  SQL: PostgreSQL, MySQL, SQLite
+  NoSQL: MongoDB, Redis, DynamoDB, Cassandra
+
+Cloud (pick one):
+  - AWS (EC2, S3, Lambda, RDS, ECS)
+  - Azure (App Service, Blob Storage, Functions)
+  - GCP (Cloud Run, Cloud SQL, GCS)
+
+API Development:
+  - REST API design
+  - FastAPI OR Flask OR Django (Python)
+  - Spring Boot (Java)
+  - Express (Node.js)
+
+TIER 3 — STRONG DIFFERENTIATORS:
+System Design:
+  - Distributed systems
+  - Microservices architecture
+  - Message queues (Kafka, RabbitMQ, SQS)
+  - Caching (Redis, Memcached)
+  - Load balancing
+
+DevOps:
+  - Docker
+  - Kubernetes
+  - CI/CD (GitHub Actions, Jenkins)
+  - Infrastructure as Code (Terraform)
+
+Testing:
+  - Unit testing
+  - Integration testing
+  - Test driven development (TDD)
+
+TIER 4 — NICE TO HAVE:
+  - GraphQL
+  - gRPC
+  - WebSockets
+  - Elasticsearch
+  - Prometheus and Grafana
+
+SECTION 3: AI ENGINEER SKILLS
+==============================
+
+TIER 1 — CORE REQUIRED:
+Programming:
+  - Python (advanced)
+  - SQL
+
+LLM Frameworks:
+  - LangChain
+  - LlamaIndex
+  - Hugging Face Transformers
+
+Vector Databases:
+  - ChromaDB OR Pinecone OR Weaviate OR FAISS
+
+LLM APIs:
+  - OpenAI API OR Anthropic API OR Groq API
+
+Prompt Engineering:
+  - System prompts
+  - Few-shot prompting
+  - Chain of thought prompting
+  - Prompt optimization
+
+TIER 2 — PLATFORM REQUIRED:
+Deployment:
+  - FastAPI for serving AI endpoints
+  - Docker for containerization
+  - Cloud: Azure OpenAI OR AWS Bedrock OR GCP Vertex AI
+
+RAG Pipeline:
+  - Document loading and chunking
+  - Embedding generation
+  - Vector similarity search
+  - Context retrieval and injection
+
+TIER 3 — STRONG DIFFERENTIATORS:
+Agent Frameworks:
+  - LangGraph
+  - CrewAI
+  - AutoGen
+
+Fine-tuning:
+  - LoRA / QLoRA
+  - PEFT
+  - Hugging Face fine-tuning pipeline
+
+Evaluation:
+  - RAGAS framework
+  - TruLens
+  - Human evaluation pipeline
+  - A/B testing AI responses
+
+TIER 4 — NICE TO HAVE:
+  - MLflow for experiment tracking
+  - Weights and Biases
+  - Knowledge graphs
+  - Multi-modal AI (images, audio)
+
+SECTION 4: ML ENGINEER SKILLS
+==============================
+
+TIER 1 — CORE REQUIRED:
+Programming:
+  - Python (advanced)
+  - SQL
+
+ML Frameworks:
+  - PyTorch OR TensorFlow
+  - scikit-learn
+  - NumPy and Pandas
+
+Statistics and Math:
+  - Linear algebra
+  - Probability and statistics
+  - Calculus (for understanding gradients)
+
+TIER 2 — PLATFORM REQUIRED:
+ML Platforms:
+  - MLflow (experiment tracking)
+  - Weights and Biases OR Neptune
+  - Kubeflow OR Azure ML OR SageMaker OR Vertex AI
+
+Feature Engineering:
+  - Feature stores (Feast, Tecton)
+  - Apache Spark for large scale feature computation
+
+Model Serving:
+  - TorchServe OR TensorFlow Serving OR BentoML
+  - FastAPI for custom model endpoints
+  - Docker for containerization
+
+TIER 3 — STRONG DIFFERENTIATORS:
+MLOps:
+  - CI/CD for ML pipelines
+  - Model monitoring and drift detection
+  - Automated retraining pipelines
+  - Shadow deployment and A/B testing
+
+Large Scale:
+  - Distributed training
+  - Model optimization (quantization, pruning)
+  - Inference optimization (TensorRT, ONNX)
+
+Data Processing:
+  - Apache Spark for feature engineering
+  - Kafka for real-time feature pipelines
+
+TIER 4 — NICE TO HAVE:
+  - Reinforcement learning
+  - Computer vision (OpenCV, YOLO)
+  - NLP (BERT, transformers)
+  - Graph neural networks
+
+SECTION 5: HOW TO USE THIS TAXONOMY
+When analyzing a resume against a JD:
+
+Step 1: Identify the target role from JD
+Step 2: Look up Tier 1 skills for that role
+Step 3: Check if ALL Tier 1 skills are in resume
+Step 4: Check Tier 2 — at least one from each category?
+Step 5: Note which Tier 3 skills are present as strengths
+Step 6: Note which Tier 3 skills are missing as gaps
+Step 7: Use JD to identify which specific skills matter most
+
+Reporting skill gaps:
+- Tier 1 missing = CRITICAL gap (mention first)
+- Tier 2 missing = MAJOR gap (mention second)  
+- Tier 3 missing = MINOR gap (mention if relevant to JD)
+- Tier 4 missing = OPTIONAL (only mention if JD asks for it)
+
+SECTION 6: SKILL SYNONYMS
+These mean the same thing — treat as equivalent:
+
+PySpark = Apache Spark (Python API) = Spark
+ADF = Azure Data Factory
+ADLS = Azure Data Lake Storage
+k8s = Kubernetes
+GKE = Google Kubernetes Engine
+EKS = Amazon Elastic Kubernetes Service
+AKS = Azure Kubernetes Service
+TF = TensorFlow
+PT = PyTorch
+LLM = Large Language Model
+RAG = Retrieval Augmented Generation
+NLP = Natural Language Processing
+CV = Computer Vision
+ML = Machine Learning
+AI = Artificial Intelligence
+DE = Data Engineering
+SWE = Software Engineering
+MLE = Machine Learning Engineering
